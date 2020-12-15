@@ -48,6 +48,7 @@ a{
     .wrapper{
         margin: 0 10px 0 10px;
     }
+}
 
 @media screen and (max-width: 425px){
     .container{
@@ -55,5 +56,6 @@ a{
     }
     .wrapper{
         max-width: 336px;
+        margin: 0 auto;
     } 
 }
