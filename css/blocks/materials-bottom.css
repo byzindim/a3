@@ -1,0 +1,108 @@
+.materials-bottom{
+    display: flex;
+    flex-direction: column;
+    margin-left: 3px;
+}
+.materials-title{
+    text-transform: uppercase;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 117.8%;
+    letter-spacing: 0.1em;
+    color: #C6003B;
+}
+.article-bottom1, .article-bottom2, .article-bottom3{
+    display: flex;
+    flex-direction: column;
+    max-width: 627px;
+}
+.article-bottom1{
+    margin: 25px 0 3px 0;
+}
+.article-bottom2, .article-bottom3{
+    margin: 19px 0 3px 0;
+}
+.link-bottom{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 500;
+    font-size: 15px;
+    line-height: 117.8%;
+    color: #000000;
+}
+.data-bottom1, .data-bottom2, .data-bottom3 {
+    margin: 11px 0 15px 0;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109.2%;
+    color: #4A4A4A;
+}
+.out-bottom-mobile{
+    display: none;
+}
+
+.mobile-marketing{
+    display: none;
+}
+
+@media screen and (max-width: 1024px){
+    .materials-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 4px;
+    }
+    .out-bottom{
+        max-width: 632px;
+    }
+    .mobile-marketing{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .materials-bottom{
+        display: flex;
+        flex-direction: column;
+        margin-left: 9px;
+    }
+    .out-bottom{
+        max-width: 326px;
+    }
+    .out-bottom-mobile{
+        display: block;
+        max-width: 326px;
+        margin-top: 25px;
+    }
+    .article-bottom1, .article-bottom2, .article-bottom3{
+        max-width: 297px;
+    }
+    .article-bottom1{
+        margin: 14px 0 3px 0;
+    }
+    .article-bottom2{
+        margin: 23px 0 3px 0;
+    }
+    .article-bottom3{
+        margin: 16px 0 3px 0;
+    }
+    .data-bottom1{
+        margin: 34px 0 15px 0;
+    }
+    .data-bottom2{
+        margin: 16px 0 18px 0;
+    }
+    .mobile-marketing{
+        display: flex;
+        justify-content: center; 
+        align-items: center;
+        margin: 10px 0 0 38px;
+        width: 300px;
+        height: 300px;
+        border: 1px solid #C4C4C4;
+        box-sizing: border-box;
+    }
+}

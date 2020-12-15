@@ -1,0 +1,226 @@
+.container-center{
+    margin: 34px 0 0 29px;
+}
+.grid-center{
+    display: grid;
+    grid-template-columns: 1fr 2fr 1fr;
+}
+.grid-item-center{
+    grid-column: 2/2;
+    grid-row: 1/1;
+    max-width: 688px;
+    margin: -3px 0 0 -13px; 
+}
+.content-center-top{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.content-center-title{
+    margin: 26px 0 0 0;
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 24px;
+    line-height: 129.8%;
+    color: #000000;
+}
+.grid-item-center-article1{
+    grid-column: 2/2;
+    grid-row: 2/2;
+    max-width: 688px;
+    margin: 30px 0 29px -13px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.grid-item-img-center{
+    grid-column: 2/2;
+    grid-row: 3/5;
+    margin-left: -13px;
+}
+.img-center{
+    height: auto;
+    width: 100%;
+    max-width: 688px;
+}
+.img-title-center{
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    max-width: 146.71px;
+    margin: 12px 0 0 2px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #D3D3D3;
+}
+.grid-item-center-article2{
+    grid-column: 2/2;
+    grid-row: 5/5;
+    max-width: 688px;
+    margin: 27px 0 0 -13px;
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.center-article2-p{
+    font-family: Segoe UI;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 141.3%;
+    color: #000000;
+}
+.img-center-ipad{
+    display: none;
+}
+.img-center-mobile{
+    display: none;
+}
+
+@media screen and (max-width: 1024px) {
+    
+    .grid-center{
+        grid-template-columns: 1fr 2fr;
+    }
+    .grid-item-center{ 
+        max-width: 626px;
+        margin: -3px 0 0 1px; 
+    }
+    .grid-item-center-article1{
+        max-width: 626px;
+        margin: 25px 0 33px 1px;
+    }
+    .img-center{
+        display: none;
+    }
+    .img-center-mobile{
+        display: none;
+    }
+    .img-title-center{
+        margin: 15px 0 0 5px;
+    }
+    .img-center-ipad{
+        display: block;
+        margin-left: 4px;
+        width: 100%;
+        max-width: 635px;
+        height: auto;
+        border-radius: 15px;
+    }
+    .container-center{
+        margin: 38px 0 0 0;
+    }
+    .grid-item-center-article2{
+        
+        max-width: 626px;
+        margin: 27px 0 0 0;
+       
+    }
+    .out-center{
+        max-width: 632px;
+    }
+    .grid-item-img-center{
+        margin: -2px 0 0 -3px;
+    }
+} 
+
+
+@media screen and (max-width: 486px) {
+    .container-center{
+        margin: 23px 0 0 0px;
+    }
+    .grid-center{
+        grid-template-columns: 1fr;
+        display: flex;
+        flex-direction: column;
+    }
+    .grid-item-center{
+        max-width: 335px;
+        margin: 23px 0 0 4px;
+    }
+    .content-center-top{
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 141.3%;
+        color: #000000;
+    }
+    .content-center-title{
+        max-width: 335px;
+        margin: 40px 0 0 0;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 129.8%;
+        color: #000000;
+    }
+    .grid-item-center-article1{
+        max-width: 329px;
+        margin: 19px 0 33px 5px;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 141.3%;
+        color: #000000;
+    }
+    .grid-item-img-center{
+        margin-left: 2px;
+    }
+    .img-center-mobile{
+        display: block;
+        height: auto;
+        width: 100%;
+        max-width: 334px;
+    }
+    .img-title-center{
+        display: flex;
+        justify-content: flex-start;
+        align-items: center;
+        max-width: 146.71px;
+        margin: 12px 0 0 0px;
+        font-family: Proxima Nova;
+        font-style: normal;
+        font-weight: normal;
+        font-size: 14px;
+        line-height: 115.8%;
+        color: #D3D3D3;
+    }
+    .grid-item-center-article2{
+        max-width: 688px;
+        margin: 21px 0 0 3px;
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 141.3%;
+        color: #000000;
+    }
+    .center-article2-p{
+        font-family: Segoe UI;
+        font-style: normal;
+        font-weight: 300;
+        font-size: 18px;
+        line-height: 141.3%;
+        color: #000000;
+    }
+    .img-center-ipad{
+        display: none;
+    }
+    
+}

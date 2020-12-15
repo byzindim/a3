@@ -1,0 +1,107 @@
+.button-social{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin: 24px 0 25px 3px;
+}
+.button-group-bottom-mobile{
+    display: none;
+}
+.button-group-bottom{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: -6px;
+}
+.btn-health, .btn-pet, .btn-hobby{
+    height: 28px;
+    border: 1px solid #000000;
+    background: #fff;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.btn-health, .btn-pet{
+    width: 99px;
+    margin: 0 10px 0 0;
+}
+.btn-hobby{
+    width: 77px;
+}
+.social-media{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 49px;
+    margin-right: -8px;
+}
+.content-social-icon{
+   height: auto;
+   margin-right: 10px;
+}
+
+@media screen and (max-width: 1024px){
+    .button-social{
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        margin: 24px 0 31px 5px;
+    }
+    .button-group-bottom-mobile{
+        display: none;
+    }
+    .button-group-bottom{
+        margin-top: -3px;
+    }
+    .btn-health, .btn-pet{
+        width: 90px;
+        margin: 0 10px 0 0;
+    }
+    .btn-hobby{
+        width: 70px;
+    }
+    .social-media{
+        margin: -7px -16px 0 0;
+    }
+}
+@media screen and (max-width: 572px){
+    .button-social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 13px 0 17px 0;
+    }
+    .social-media {
+        margin: 10px -16px 0 0;
+    }
+}
+
+@media screen and (max-width: 425px){
+    .button-social{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin: 23px 0 27px 0;
+    }
+    .button-group-bottom{
+        display: none;
+    }
+    .button-group-bottom-mobile{
+        display: flex;
+        justify-content: space-between;
+        margin: 0 auto;
+    }
+    .btn-serial, .btn-king{
+        width: 90px;
+        height: 28px;
+        margin: 0 10px 0 0;
+        border-radius: 8px;
+    }
+    .btn-movie{
+        width: 70px;
+        height: 28px;
+        border-radius: 8px;
+    }
+    .social-media{
+        margin: 19px 0px 0 0;
+    }
+}

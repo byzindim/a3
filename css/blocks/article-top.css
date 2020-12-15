@@ -1,0 +1,204 @@
+.container-top{
+    margin-top: 45px;
+}
+.grid-top, .grid-end{
+    display: grid;
+    grid-template-columns: 3fr 1fr;
+}
+
+.grid-item-top, .grid-item-end{
+    grid-column: 1/1;
+    grid-row: 1/1;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: wrap;
+    margin: 0 9px 0 -3px;
+}
+.data-top, .data-end{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 109.2%;
+    color: #4A4A4A;
+}
+.button-group, .button-group-end{
+    display: flex;
+    justify-content: space-between;
+    text-align: center;
+    margin-top: 10px;
+}
+.button1, .button1-end, 
+.button2, .button2-end{
+    width: 99px;
+    height: 28px;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    border-radius: 8px;
+    background: #fff;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: 300;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #000000;
+}
+.button1{
+    margin-right: 11px;
+}
+.gird-item-title-top,
+.gird-item-title-end{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    margin: -6px 0 24px -2px; 
+}
+
+.top-title-left,
+.end-title-left{
+    font-family: Geometria;
+    font-style: normal;
+    font-weight: bold;
+    font-size: 45px;
+    line-height: 111.2%;
+    color: #000000;
+}
+.gird-item-p-top,
+.gird-item-p-end{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin: -1px 0 30px -1px; 
+}
+
+.top-content-left,
+.end-content-left{
+    max-width: 926.18px;
+    font-family: Geometria;
+    font-style: italic;
+    font-weight: normal;
+    font-size: 20px;
+    line-height: 130.2%;
+    color: #000000;
+}
+.gird-item-banner-top, .gird-item-banner-end{
+    grid-column: 1/1;
+    grid-row: 4/4; 
+}
+
+.content-left-img{
+    height: auto;
+    width: 100%;
+    max-width: 1019px;
+    border-radius: 15px;
+}
+.banner-top-ipad{
+    display: none;
+}
+.banner-top-mobile{
+    display: none;
+}
+
+.img-title-left{
+    position: absolute;
+    max-width: 146.71px;
+    max-height: 16px;
+    margin: -40px 0 0 22px;
+    font-family: Proxima Nova;
+    font-style: normal;
+    font-weight: normal;
+    font-size: 14px;
+    line-height: 115.8%;
+    color: #FFFFFF;
+}
+
+@media screen and (max-width: 1024px) {
+    .grid-top{
+        grid-template-columns: 1fr;
+    }
+    .container-top{
+        margin: 30px 0 0 0;
+    }
+    .button1, .button2{
+        width: 90px;
+        height: 28px;   
+    }
+    .top-title-left{
+        max-width: 780px;
+    }
+    .top-content-left{
+        max-width: 830px;
+    }
+    .content-left-img{
+        display: none;
+    }
+    .banner-top-ipad{
+        display: block;
+        max-width: 958.18px;
+        margin-left: -1px;
+        height: auto;
+        width: 100%;
+        border-radius: 15px;
+    }
+    .img-title-left{
+        max-width: 130px;
+        margin: -35px 0 0 22px;
+    }
+} 
+
+@media screen and (max-width: 425px) {
+    .container-top{
+        margin-top: 22px;
+    }
+    .button-group{
+        margin: -5px -21px 0 0;
+    }
+    .button2{
+        display: none;
+    }
+    .data-top{
+        margin-left: 8px; 
+    }
+    .gird-item-title-top{
+    grid-column: 1/1;
+    grid-row: 2/2;
+    margin: 16px 0 18px 3px; 
+}
+    .top-title-left{
+        max-width: 324px;
+        font-family: Geometria;
+        font-style: normal;
+        font-weight: bold;
+        font-size: 24px;
+        line-height: 120%;
+        color: #000000;
+    }
+    .gird-item-p-top{
+    grid-column: 1/1;
+    grid-row: 3/3;
+    margin: 0px 0 18px 5px; 
+    }
+    .top-content-left{
+        max-width: 324px;
+        font-family: Geometria;
+        font-style: italic;
+        font-weight: normal;
+        font-size: 18px;
+        line-height: 130.2%;
+        color: #000000;
+    }
+    .content-left-img{
+        display: none;
+    }
+    .banner-top-ipad{
+        display: none;
+    }
+    .gird-item-banner-top{
+        margin-left: 3px;
+    }
+    .banner-top-mobile{
+        display: block;
+        border-radius: 15px;
+    }
+    .img-title-left{
+        display: none;
+    }
+}
